@@ -18,7 +18,7 @@ public class Post implements Serializable {
 	private String title;
 	private String body;
 	private AuthorDTO author;
-
+	
 	public Post() {
 	}
 
@@ -27,7 +27,7 @@ public class Post implements Serializable {
 		this.id = id;
 		this.date = date;
 		this.title = title;
-		this.title = body;
+		this.body = body;
 		this.author = author;
 	}
 
@@ -95,5 +95,4 @@ public class Post implements Serializable {
 			return false;
 		return true;
 	}
-
 }
